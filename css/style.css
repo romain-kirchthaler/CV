@@ -1635,9 +1635,9 @@ footer {
     }
 
     .timeline-tabs {
-        width: 70%;
+        width: 100%;
         flex-direction: column;
-        padding: 0 0 0 135px;
+        padding: 0 15px 0 15px;
     }
 
     .timeline-tab {
@@ -1650,17 +1650,21 @@ footer {
     }
 
     .cards-grid {
+        display: flex;
         align-items: center;
         text-align: center;
+        justify-content: space-around;
     }
 
     .info-card {
         align-items: center;
         text-align: center;
+        justify-content: center;
     }
 
     .card-icon {
-        margin: 0 0 30px 137px;
+        margin: 0 0 25px 138px;
+        justify-content: center;
     }
 
     .timeline-tags {
