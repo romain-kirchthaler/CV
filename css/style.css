@@ -1703,6 +1703,11 @@ footer {
         text-align: center;
     }
 
+    .about-stats{
+        display: flex;
+        flex-direction: column;
+    }
+
     .stat-item {
         display: flex;
         justify-content: center;
@@ -1712,10 +1717,10 @@ footer {
     }
 
     .stat-number {
-        font-size: 22px;
+        font-size: 30px;
     }
 
     .stat-label {
-        font-size: 11px;
+        font-size: 18px;
     }
 }
