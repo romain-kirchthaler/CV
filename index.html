@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="fr, en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is a framework name but the project is NOT, it is just coding HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Romain Kirchthaler - mon cv interactif</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">Romain Kirchthaler</div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#formations">Formations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!--Hero Section-->
+        <section id="hero" class="hero">
+            <div class="hero-bg">
+                <div class="floating-shapes">
+                    <div class="shape shape1"></div>
+                    <div class="shape shape2"></div>
+                    <div class="shape shape3"></div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <a href="#contact" style="text-decoration: none; color: white;">
+                    <div class="hero-badge">✨ Disponible pour de nouveaux projets</div>
+                </a>
+                <h1>
+                    <span class="gradient-text">De la passion du métier à l’expertise digitale :</span><br>
+                    mon parcours de boucher à UX/UI Designer
+                </h1>
+                <p class="subtitle">
+                    Je transforme vos idées en expériences digitales intuitives et performantes, alliant créativité et
+                    expertise technique.
+                </p>
+                <p class="subtitle">
+                    Fort de 10 ans d’expérience en gestion client et de 21 certifications en design, marketing digital
+                    et développement web, je vous accompagne pour créer des solutions digitales sur mesure, alliant
+                    esthétique et fonctionnalité.
+                </p>
+                <div class="cta-buttons">
+                    <a id="hero_primary" href="#experiences" class="cta-button cta-primary">
+                        Découvrir mon parcours →
+                    </a>
+                    <a id="hero_secondary" href="#contact" class="cta-button cta-secondary">
+                        Me contacter
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Section Expérience-->
+        <section id="experiences">
+            <div class="section-header">
+                <span class="section-badge">💼 Mon parcours</span>
+                <h2 class="section-title">Mon expériences professionnelles</h2>
+                <p class="section-subtitle">
+                    Découvrez mon évolution professionnelle
+                </p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-items">
+                    <div class="timeline-item" onclick="toggleExpand(this)">
+                        <div class="timeline-card">
+                            <span class="timeline-date">09/2025 - Présent</span>
+                            <h3>UX/UI Designer freelance</h3>
+                            <h4>RK innovations – Rouen & Télétravail (76)</h4>
+                            <p class="timeline-preview">
+                                Transformation des idées en expériences digitales intuitives, performantes et centrées
+                                utilisateur, pour des entreprises locales et internationales.
+                            </p>
+                            <div class="timeline-details">
+                                <div class="timeline-details-content">
+                                    <p style="color: white; line-height: 1.8; margin-bottom: 1rem;">
+                                        • Conception et développement d'interfaces utilisateur pour des sites web et
+                                        applications mobiles<br>
+                                        • Création d’identités visuelles et de maquettes interactives (Figma) pour des
+                                        projets variés<br>
+                                        • Optimisation des parcours utilisateurs grâce à des tests utilisateurs, des
+                                        audits UX et des analyses de données.<br>
+                                        • Intégration de solutions agile et design sprint pour livrer des projets en
+                                        temps record, tout en garantissant une qualité optimale.<br>
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Adobe creative cloud</span>
+                                        <span class="tag">Wordpress</span>
+                                        <span class="tag">HTML</span>
+                                        <span class="tag">CSS</span>
+                                        <span class="tag">Figma</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expand-btn">
+                                <span>Voir plus</span>
+                                <span class="expand-icon">↓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-item" onclick="toggleExpand(this)">
+                        <div class="timeline-card">
+                            <span class="timeline-date">04/2022 - 08/2025</span>
+                            <h3>Designer freelance</h3>
+                            <h4>RKdesigns – Elbeuf & Télétravail (76)</h4>
+                            <p class="timeline-preview">
+                                Création de solutions digitales sur mesure pour des entreprises locales et
+                                internationales, alliant design intuitif, stratégie marketing et développement web
+                                optimisé.
+                            </p>
+                            <div class="timeline-details">
+                                <div class="timeline-details-content">
+                                    <p style="color: white; line-height: 1.8; margin-bottom: 1rem;">
+                                        • Conception et développement de sites web (portfolio, vitrine, e-commerce) pour
+                                        des secteurs variés.<br>
+                                        • Création complète de l’identité visuelle (logos, chartes graphiques, supports
+                                        print et digitaux).<br>
+                                        • Optimisation SEO et gestion des réseaux sociaux pour améliorer la visibilité
+                                        et l’engagement en ligne.<br>
+                                        • Automatisation de processus métiers (rapports, chatbots) pour gagner en
+                                        efficacité et en productivité.<br>
+                                        • Collaboration avec des clients internationaux pour des projets sur mesure, du
+                                        cahier des charges à la livraison.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Adobe Illustrator</span>
+                                        <span class="tag">Canva</span>
+                                        <span class="tag">Wordpress</span>
+                                        <span class="tag">Metricool</span>
+                                        <span class="tag">Woocommerce</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expand-btn">
+                                <span>Voir plus</span>
+                                <span class="expand-icon">↓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-item" onclick="toggleExpand(this)">
+                        <div class="timeline-card">
+                            <span class="timeline-date">09/2022 - 10/2023</span>
+                            <h3>Ouvrier boucher</h3>
+                            <h4>Maxi Viande – Caudebec-lès-Elbeuf (76)</h4>
+                            <p class="timeline-preview">
+                                Contribution active à la production et à la vente de produits carnés, avec une approche
+                                axée sur la qualité, la traçabilité et le service client.
+                            </p>
+                            <div class="timeline-details">
+                                <div class="timeline-details-content">
+                                    <p style="color: white; line-height: 1.8; margin-bottom: 1rem;">
+                                        • Préparation et vente de produits carnés selon les normes d’hygiène et de
+                                        sécurité alimentaire.<br>
+                                        • Gestion des commandes et des stocks pour éviter les ruptures et optimiser la
+                                        rotation des produits.<br>
+                                        • Collaboration avec les fournisseurs pour garantir la qualité et la fraîcheur
+                                        des produits.<br>
+                                        • Accueil et conseil des clients pour répondre à leurs besoins spécifiques et
+                                        fidéliser la clientèle.<br>
+                                        • Participation à des événements promotionnels pour dynamiser les ventes et
+                                        attirer de nouveaux clients.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Préparation des viandes</span>
+                                        <span class="tag">Préparations bouchères</span>
+                                        <span class="tag">Conseils clients</span>
+                                        <span class="tag">Vente et commercialisation</span>
+                                        <span class="tag">Normes HACCP</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expand-btn">
+                                <span>Voir plus</span>
+                                <span class="expand-icon">↓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-item" onclick="toggleExpand(this)">
+                        <div class="timeline-card">
+                            <span class="timeline-date">09/2019 - 07/2022</span>
+                            <h3>Ouvrier artisan boucher</h3>
+                            <h4>Boucherie Gaudet – La Haye Malherbe (27)</h4>
+                            <p class="timeline-preview">
+                                Expertise en gestion client, respect des normes d’hygiène et optimisation des processus
+                                de vente, avec un sens aigu du service et de la qualité.
+                            </p>
+                            <div class="timeline-details">
+                                <div class="timeline-details-content">
+                                    <p style="color: white; line-height: 1.8; margin-bottom: 1rem;">
+                                        • Gestion quotidienne de la relation client : conseil personnalisé, fidélisation
+                                        et satisfaction client.<br>
+                                        • Optimisation des processus de travail : réception, découpe, mise en rayon et
+                                        gestion des stocks<br>
+                                        • Formation des nouveaux employés aux techniques de découpe et aux normes
+                                        d’hygiène strictes.<br>
+                                        • Participation à l’augmentation des ventes grâce à des promotions ciblées et
+                                        une présentation attractive des produits.<br>
+                                        • Adaptation à des environnements variés : boucheries artisanales, stands
+                                        évènementielles.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Gestion client</span>
+                                        <span class="tag">Préparation des viandes</span>
+                                        <span class="tag">Préparations bouchères</span>
+                                        <span class="tag">Préparations charcutières</span>
+                                        <span class="tag">Vente et commercialisation</span>
+                                        <span class="tag">Formations d'apprentis</span>
+                                        <span class="tag">Normes HACCP</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expand-btn">
+                                <span>Voir plus</span>
+                                <span class="expand-icon">↓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-item" onclick="toggleExpand(this)">
+                        <div class="timeline-card">
+                            <span class="timeline-date">02/2019 - 08/2019</span>
+                            <h3>Ouvrier boucher</h3>
+                            <h4>Carrefour – Évreux (27)</h4>
+                            <p class="timeline-preview">
+                                Travail en grande surface avec une forte orientation client (rayon traditionnel),
+                                gestion des flux et respect des standards qualité d’une enseigne internationale.
+                            </p>
+                            <div class="timeline-details">
+                                <div class="timeline-details-content">
+                                    <p style="color: white; line-height: 1.8; margin-bottom: 1rem;">
+                                        • Préparation et mise en valeur des produits pour maximiser leur attractivité en
+                                        rayon.<br>
+                                        • Gestion des commandes et des livraisons pour assurer un approvisionnement
+                                        continu.<br>
+                                        • Application des procédures qualité et sécurité de l’enseigne Carrefour.<br>
+                                        • Accueil et conseil aux clients dans un environnement à fort trafic.<br>
+                                        • Travail en équipe pluridisciplinaire pour garantir la satisfaction client et
+                                        la performance du rayon.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Préparation des viandes</span>
+                                        <span class="tag">Préparations bouchères</span>
+                                        <span class="tag">Conseils clients</span>
+                                        <span class="tag">Vente et commercialisation</span>
+                                        <span class="tag">Normes HACCP</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expand-btn">
+                                <span>Voir plus</span>
+                                <span class="expand-icon">↓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-item" onclick="toggleExpand(this)">
+                        <div class="timeline-card">
+                            <span class="timeline-date">04/2018 - 11/2018</span>
+                            <h3>Ouvrier boucher - charcutier</h3>
+                            <h4>La Gardéchoise – Barjac (30)</h4>
+                            <p class="timeline-preview">
+                                Expérience en boucherie artisanale, avec une forte implication dans la production de
+                                charcuterie et la vente directe.
+                            </p>
+                            <div class="timeline-details">
+                                <div class="timeline-details-content">
+                                    <p style="color: white; line-height: 1.8; margin-bottom: 1rem;">
+                                        • Fabrication de produits de charcuterie selon des recettes traditionnelles.<br>
+                                        • Vente directe aux clients avec un accent mis sur le conseil et la
+                                        personnalisation.<br>
+                                        • Gestion des commandes spéciales pour les fêtes et événements locaux.<br>
+                                        • Respect des normes d’hygiène dans un cadre artisanal exigeant.<br>
+                                        • Participation à la vie de l’entreprise : accueil, gestion des stocks et
+                                        relation fournisseurs.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span class="tag">Gestion client</span>
+                                        <span class="tag">Préparation des viandes</span>
+                                        <span class="tag">Préparations bouchères</span>
+                                        <span class="tag">Préparations charcutières</span>
+                                        <span class="tag">Vente et commercialisation</span>
+                                        <span class="tag">Normes HACCP</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expand-btn">
+                                <span>Voir plus</span>
+                                <span class="expand-icon">↓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Section Formation-->
+        <section id="formations">
+            <div class="section-header">
+                <span class="section-badge">🎓 Éducation</span>
+                <h2 class="section-title">Formations & Certifications</h2>
+                <p class="section-subtitle">
+                    Mon parcours académique et mes certifications professionnelles
+                </p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-tabs">
+                    <div class="timeline-tab active" onclick="switchTab(event, 'diplomes')">
+                        Diplômes
+                    </div>
+                    <div class="timeline-tab" onclick="switchTab(event, 'certifications')">
+                        Certifications
+                    </div>
+                    <div class="timeline-tab" onclick="switchTab(event, 'concours')">
+                        Concours
+                    </div>
+                </div>
+
+                <!--Onglet Diplôme-->
+                <div id="diplomes" class="timeline-content active">
+                    <div class="cards-grid">
+                        <div class="info-card">
+                            <div class="card-icon">🎓</div>
+                            <span class="timeline-date">2015 - 2017</span>
+                            <h3>CAP Boucher</h3>
+                            <h4>CFAIE de Val de Reuil (27) - Boucherie Huret à Evreux (27)</h4>
+                            <p style="color: white;">
+                                Diplôme d’État reconnu, attestant de la maîtrise des techniques de découpe, de
+                                transformation des viandes, et des normes d’hygiène et de sécurité alimentaire.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">Techniques de découpe et préparation</span>
+                                <span class="tag">Hygiène et sécurité alimentaire </span>
+                                <span class="tag">Gestion et organisation</span>
+                                <span class="tag">Relation client et commercialisation</span>
+                                <span class="tag">Connaissances théoriques des produits carnés</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Onglet Certification-->
+                <div id="certifications" class="timeline-content">
+                    <div class="cards-grid">
+                        <div class="info-card">
+                            <div class="card-icon">🎨</div>
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>Certifications en Graphisme</h3>
+                            <h4>OpenClassrooms & Walter Learning</h4>
+                            <p style="color: white;">
+                                Maîtrise des outils de création graphique, de la méthodologie de design et de la
+                                psychologie des couleurs pour des supports visuels percutants.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">Création d’identités visuelles</span>
+                                <span class="tag">Maîtrise d’Adobe Illustrator</span>
+                                <span class="tag">Maîtrise d’Adobe Photoshop</span>
+                                <span class="tag">Conception de supports graphique</span>
+                                <span class="tag">Psychologie graphique</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="card-icon">🚀</div>
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>Certifications en Marketing</h3>
+                            <h4>OpenClassrooms & Walter Learning</h4>
+                            <p style="color: white;">
+                                Stratégies digitales, analyse de marché, gestion des réseaux sociaux et optimisation SEO
+                                pour booster la visibilité et l’engagement.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">Stratégie marketing digitale</span>
+                                <span class="tag">Optimisation SEO et SEM </span>
+                                <span class="tag">Community management</span>
+                                <span class="tag">Publicité en ligne</span>
+                                <span class="tag">Growth Hacking</span>
+                                <span class="tag">Analyse de données et KPI</span>
+                                <span class="tag">Email marketing</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="card-icon">🌐</div>
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>Certifications en création et optimisation Web</h3>
+                            <h4>OpenClassrooms & Walter Learning</h4>
+                            <p style="color: white;">
+                                Développement de sites web, maîtrise des langages de programmation et des CMS pour des
+                                solutions digitales performantes.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">Développement HTML / CSS</span>
+                                <span class="tag">Création de sites dynamiques</span>
+                                <span class="tag">Maîtrise de WordPress</span>
+                                <span class="tag">Développement d’applications web </span>
+                                <span class="tag">Optimisation des performances web</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="card-icon">💻</div>
+                            <span class="timeline-date">2022</span>
+                            <h3>Certification en Bureautique</h3>
+                            <h4>Walter Learning</h4>
+                            <p style="color: white;">
+                                Maîtriser les outils Word, Excel et PowerPoint pour la création de documents
+                                professionnels, l'analyse de données et la conception de présentations percutantes.
+                            </p>
+                            <div class="timeline-tags">
+                                <p class="subtitle">Microsoft Word</p>
+                                <span class="tag">Création et mise en forme de documents</span>
+                                <p class="subtitle">Microsoft Excel</p>
+                                <span class="tag">Création de tableaux dynamiques</span>
+                                <p class="subtitle">Microsoft PowerPoint</p>
+                                <span class="tag">Conception de présentations percutantes</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="card-icon">🥩</div>
+                            <span class="timeline-date">2017</span>
+                            <h3>Certification en Boucherie</h3>
+                            <h4>ENSMV (Ecole Nationale Supérieur des Métiers de la Viande) - Paris</h4>
+                            <p style="color: white;">
+                                Formation d'excellence en techniques de découpe, hygiène alimentaire, gestion de
+                                production et innovation dans les métiers de la viande. Reconnue comme l'une des
+                                meilleures écoles de France en boucherie.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">Maîtrise des techniques de découpe</span>
+                                <span class="tag">Préparation de produits haut de gamme</span>
+                                <span class="tag">Transformation en charcuterie</span>
+                                <span class="tag">Respect des normes d’hygiène et de sécurité alimentaire</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Onglet Formation-->
+                <div id="concours" class="timeline-content">
+                    <div class="cards-grid">
+                        <div class="info-card">
+                            <div class="card-icon">🏆</div>
+                            <span class="timeline-date">2017</span>
+                            <h3>2ème prix niveau départemental – Meilleur Apprenti de France</h3>
+                            <h4>CFAIE de Val de Reuil (27) - Boucherie Huret à Evreux (27)</h4>
+                            <p style="color: white;">
+                                Concours prestigieux récompensant l'excellence technique, la rigueur et le savoir-faire
+                                des apprentis en boucherie. Classement parmi les meilleurs talents du département.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">Technique de découpe</span>
+                                <span class="tag">Hygiène et sécurité</span>
+                                <span class="tag">Présentation des produits</span>
+                                <span class="tag">Connaissances théoriques</span>
+                                <span class="tag">Relation client</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="card-icon">🏆</div>
+                            <span class="timeline-date">2017</span>
+                            <h3>2ème prix niveau régional – Meilleur Apprenti de France</h3>
+                            <h4>CFAIE de Val de Reuil (27) - Boucherie Huret à Evreux (27)</h4>
+                            <p style="color: white;">
+                                Compétition régionale mettant en lumière les meilleurs apprentis de la filière viande.
+                                Classement parmi l'élite des bouchers en formation, reconnaissant un savoir-faire
+                                d'exception.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">Excellence technique</span>
+                                <span class="tag">Respect des normes sanitaires</span>
+                                <span class="tag">Innovation et créativité</span>
+                                <span class="tag">Culture professionnelle</span>
+                                <span class="tag">Gestion du stress</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Galerie logiciels utilisé-->
+        <section id="technologies">
+            <div class="section-header">
+                <span class="section-badge">🛠️ Mes outils</span>
+                <h2 class="section-title">Logiciels utilisés</h2>
+                <p class="section-subtitle">Les technologies que j'utilise au quotidien</p>
+            </div>
+            <div class="logo-carousel">
+                <div class="logo-track">
+                    <!-- Premier set de logos -->
+                    <div class="logo-item">
+                        <img src="img/logo_html.webp" alt="logo_html">
+                        <span>HTML</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_css.webp" alt="logo_css">
+                        <span>CSS</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_visual_code_studio.webp" alt="logo_visual_code_studio">
+                        <span>VS code</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_wordpress.webp" alt="logo_wordpress">
+                        <span>Wordpress</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_adobe.webp" alt="logo_adobe">
+                        <span>Adobe</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_google_ads.webp" alt="logo_google_ads">
+                        <span>Google ADS</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_meta.webp" alt="logo_meta">
+                        <span>Meta</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_hubspot.webp" alt="logo_hubspot">
+                        <span>Hubspot</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_figma.webp" alt="logo_figma">
+                        <span>Figma</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_woocommerce.webp" alt="logo_woocommerce">
+                        <span>Woocommerce</span>
+                    </div>
+                    <!-- Duplication pour effet infini -->
+                    <div class="logo-item">
+                        <img src="img/logo_html.webp" alt="logo_html">
+                        <span>HTML</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_css.webp" alt="logo_css">
+                        <span>CSS</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_visual_code_studio.webp" alt="logo_visual_code_studio">
+                        <span>VS code</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_wordpress.webp" alt="logo_wordpress">
+                        <span>Wordpress</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_adobe.webp" alt="logo_adobe">
+                        <span>Adobe</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_google_ads.webp" alt="logo_google_ads">
+                        <span>Google ADS</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_meta.webp" alt="logo_meta">
+                        <span>Meta</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_hubspot.webp" alt="logo_hubspot">
+                        <span>Hubspot</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_figma.webp" alt="logo_figma">
+                        <span>Figma</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/logo_woocommerce.webp" alt="logo_woocommerce">
+                        <span>Woocommerce</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section contact-->
+        <section id="contact">
+            <div class="section-header">
+                <span class="section-badge">🤝 Me contactez</span>
+                <h2 class="section-title">Prêt à collaborer ?</h2>
+            </div>
+            <div class="contact_column">
+                <fieldset id="column_left">
+                    <div class="section-subtitle">
+                        <p>📞 <a href="tel:+33123456789">06 84 43 06 68</a></p>
+                        <p>✉️ <a href="mailto:contact@rk-innovations.fr">rk.innovations76@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn">in</a>
+                        <a href="#" class="social-link" title="Instagram">ig</a>
+                        <a href="#" class="social-link" title="GitHub">git</a>
+                    </div>
+                    <p><strong>Plus d'informations sur notre site </strong> <a href="#" target="_blank"
+                            rel="noopener noreferrer">RK
+                            Innovations</a>
+                    </p>
+                </fieldset>
+                <fieldset id="column_right">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41508.59897050719!2d1.0498992989826927!3d49.441284162344026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0de76ca71faab%3A0x3d1cabefa49f93d6!2sRouen!5e0!3m2!1sen!2sfr!4v1759925334588!5m2!1sen!2sfr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+
+        <!--Section a propos-->
+        <section id="about">
+            <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+                <span class="section-badge">👋 À propos</span>
+                <h2 class="section-title">Qui suis je ?</h2>
+            </div>
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="section-subtitle"><strong><em>Passion pour le graphisme et le
+                                    développement</em></strong></h3>
+                        <p class="section-subtitle">
+                            Depuis toujours, je suis passionné par le graphisme et le développement. Ces domaines me
+                            permettent de donner vie à des idées et de créer des expériences visuelles et interactives
+                            uniques. Que ce soit à travers le design graphique ou le développement de solutions
+                            digitales, j'aime explorer de nouvelles façons de communiquer et d'interagir avec les
+                            utilisateurs. Chaque projet est une opportunité de repousser les limites de la créativité et
+                            de l'innovation.
+                        </p>
+                        <h3 class="section-subtitle"><strong><em>De la boucherie à l'UX/UI design</em></strong></h3>
+                        <p class="section-subtitle">
+                            Mon parcours professionnel a commencé dans la boucherie, où j'ai appris la rigueur et le
+                            souci du détail. Cependant, ma passion pour la création et l'innovation m'a conduit à une
+                            reconversion professionnelle vers l'UX/UI design. Cette transition a été motivée par mon
+                            désir de combiner mes compétences en design avec une approche centrée sur l'utilisateur,
+                            pour créer des solutions qui répondent vraiment aux besoins des gens.
+                        </p>
+                        <h3 class="section-subtitle"><strong><em>Passions personnelles</em></strong></h3>
+                        <p class="section-subtitle">
+                            En dehors du travail, je suis un passionné d'automobile et de moto, ce qui nourrit mon amour
+                            pour le design et l'ingénierie. Le gaming est une autre de mes passions, me permettant de
+                            m'immersion dans des mondes virtuels et de découvrir de nouvelles histoires. Enfin, j'aime
+                            explorer et découvrir de nouveaux horizons, ce qui m'inspire constamment dans mes projets
+                            créatifs.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="img/photo_retoucher.webp" alt="Photo de profil">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Années d'expérience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Projets réalisés</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Clients satisfaits</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+
+            <h3 style="font-size: 2rem; margin-bottom: 1rem; font-weight: 700;">Travaillons ensemble !</h3>
+            <p
+                style="color: white; margin-bottom: 2rem; max-width: 900px; margin-left: auto; margin-right: auto;">
+                Je suis toujours ouvert à de nouveaux projets et collaborations passionnantes.
+            </p>
+            <p style="opacity: 0.6; margin-top: 2rem;">© 2025 Romain Kirchthaler | Tous droits réservés | UX/UI Designer</p>
+        </div>
+    </footer>
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Toggle timeline card expansion
+        function toggleExpand(item) {
+            const card = item.querySelector('.timeline-card');
+            card.classList.toggle('expanded');
+        }
+
+        // Switch between tabs
+        function switchTab(event, tabName) {
+            // Remove active class from all tabs and contents
+            document.querySelectorAll('.timeline-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.timeline-content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Add active class to clicked tab and corresponding content
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards
+        document.querySelectorAll('.timeline-item, .info-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+            observer.observe(card);
+        });
+    </script>
+</body>
+
+</html>
