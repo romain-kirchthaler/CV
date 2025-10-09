@@ -1356,4 +1356,17 @@ footer {
         margin: 0 15px 0 39px;
         text-align: center;
     }
+    .stat-item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .stat-number{
+        font-size: 22px;
+    }
+    .stat-label{
+        font-size: 13px;
+    }
 }
