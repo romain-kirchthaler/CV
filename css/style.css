@@ -161,74 +161,6 @@ body {
     }
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .back-to-top {
-        width: 50px;
-        height: 50px;
-        bottom: 20px;
-        right: 20px;
-    }
-
-    .progress-ring {
-        width: 54px;
-        height: 54px;
-    }
-
-    .arrow-icon {
-        width: 20px;
-        height: 20px;
-    }
-}
-
-/* === STYLES POUR LA DÉMO (ne pas copier) === */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    background: #0f172a;
-    color: white;
-}
-
-.demo-section {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.demo-section:nth-child(1) {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.demo-section:nth-child(2) {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-}
-
-.demo-section:nth-child(3) {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-}
-
-.demo-section:nth-child(4) {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-}
-
-.instructions {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.8);
-    padding: 15px 30px;
-    border-radius: 50px;
-    font-size: 0.9rem;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    z-index: 1000;
-}
-
 /* Header Ultra Moderne */
 
 header {
@@ -1554,6 +1486,34 @@ footer {
     .about-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .back-to-top {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        margin: 0 25px 0 0;
+    }
+
+    .progress-ring {
+        width: 54px;
+        height: 54px;
+        margin: 0 25px 0 0;
+    }
+
+    .arrow-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .progress-ring {
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(-90deg);
+    margin: 0 0 25px 0;
     }
 }
 
